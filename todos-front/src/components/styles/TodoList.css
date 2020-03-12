@@ -1,0 +1,11 @@
+.overflowDescripcion{
+    max-width: 25em;
+    max-height: 10em;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.overflowAdjunto{
+    max-width: 20em;
+    overflow-x: auto;
+}

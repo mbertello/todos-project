@@ -1,0 +1,11 @@
+# I fixed this by replacing bin/Debug with Debug.
+# This would also have the affect of ignoring the obj/Debug directory, 
+# however I want to ignore the entire contents of the obj directory, 
+# so I have also added obj to .gitignore.
+
+# Ignore folders
+Debug
+Release
+release
+obj
+*.pdb
