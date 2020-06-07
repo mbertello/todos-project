@@ -62,14 +62,14 @@ Luego escriba:
 
 Esto lanzará la ejecución de la Api:
 
-info: Microsoft.Hosting.Lifetime[0]
-      Now listening on: http://localhost:5000
-info: Microsoft.Hosting.Lifetime[0]
-      Application started. Press Ctrl+C to shut down.
-info: Microsoft.Hosting.Lifetime[0]
-      Hosting environment: Development
-info: Microsoft.Hosting.Lifetime[0]
-      Content root path: /home/user/Documentos/todos-project/todos-api
+      info: Microsoft.Hosting.Lifetime[0]
+            Now listening on: http://localhost:5000
+      info: Microsoft.Hosting.Lifetime[0]
+            Application started. Press Ctrl+C to shut down.
+      info: Microsoft.Hosting.Lifetime[0]
+            Hosting environment: Development
+      info: Microsoft.Hosting.Lifetime[0]
+            Content root path: /home/user/Documentos/todos-project/todos-api
 
 Se observa que la Api queda escuchando requests en el puerto 5000 del servidor de desarrollo Kestrel de asp.net core. A partir de aqui, ya se pueden enviar peticiones. Las mismas se pueden efectuar mediante la herramienta "Postman" o alguna otra similar.
 
