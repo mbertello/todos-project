@@ -16,10 +16,10 @@ git clone https://github.com/mbertello/todos-project.git
 Para correr la API necesitará tener instalados: 
 
        * runtime “ASP.NET Core Runtime 3.1.2” 
-       (instrucciones en: https://docs.microsoft.com/en-us/dotnet/core/install/runtime?pivots=os-linux).
+       (instrucciones en: https://docs.microsoft.com/en-us/dotnet/core/install/runtime).
 
        * “SDK 3.1.102” de .Net Core 3.1 
-       (instrucciones en: https://docs.microsoft.com/en-us/dotnet/core/install/sdk?pivots=os-linux).
+       (instrucciones en: https://docs.microsoft.com/en-us/dotnet/core/install/sdk).
 
 Además, para analizar el código, puede usar un editor como Visual Studio Code (recomendado). Las dirección de descarga de los instaladores, según el sistema operativo, es: 
 
@@ -89,15 +89,15 @@ Una vez finalizado el paso anterior, lanzamos el servidor de desarrollo
 
 [todos-front]$ npm start
 
-Compiled successfully!
+      Compiled successfully!
 
-You can now view todos-front in the browser.
+      You can now view todos-front in the browser.
 
-  Local:            http://localhost:3000
-  On Your Network:  http://x.x.x.x:3000
+        Local:            http://localhost:3000
+        On Your Network:  http://x.x.x.x:3000
 
-Note that the development build is not optimized.
-To create a production build, use npm run build.
+      Note that the development build is not optimized.
+      To create a production build, use npm run build.
 
 Posterior a esto, se nos abrirá el navegador por defecto de nuestro sistema; en el cual se desplegará el front-end.
 
